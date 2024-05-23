@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Filler test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Filler</h1>
+  <h3>Size</h3>
+  <span>
+    <span>
+      <input id="slider"  type="range" min="1" max="102400" value="50" class="slider" onchange="changeKb(this.value)"></input>
+    </span>
+    <span id="size">(50)KB</span>
+  </span>
+  <h3>Download</h3>
+  <button id="download" onclick="downloadPlainFileKb(getSliderVal()
+  );">Download file (50KB)</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
