@@ -8,16 +8,28 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #450606;
-  color: #ffffff;
+  color: #ff6161;
 }
 
+
 button {
-  background-color: #ffffff;
+  background-color: #ff6161;
   font-family: inherit;
-  color: #000000;
+  color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
 }
 
+/*slider thumb color to red*/
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #ff6161;
+  border-radius: 50%;
+  cursor: pointer;
+}
